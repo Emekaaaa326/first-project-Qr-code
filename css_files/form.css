@@ -31,6 +31,10 @@ form{
         display: flex;
         flex-direction: column;
         margin: 6px;
+
+        input {
+            padding:4px;
+        }
     }
 }
 
