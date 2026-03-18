@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .list_tbl{
+  width: 80vw;
+  background-color: #fff;
+  margin-top: 25px;
+  margin: auto;
+ } 
+
+ table, th, tr{
+    width: 80vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+ }
+
+ h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 35px;
+ }
+
+ th{
+    background-color: rgb(160, 151, 151);
+    padding: 10px;
+ }
+
+ td{
+    padding: 8px;
+ }
+
+.td_t{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+
+
+
+

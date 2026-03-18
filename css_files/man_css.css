@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+li,
+a,
+button {
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.navigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 1%;
+  padding-left: 0;
+  background-color: #ccbbbb;
+}
+.nav_house{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* padding: 0 20px; */
+    
+}
+
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  
+  /* border: 1px solid red; */
+}
+.imggg {
+  width: 50px;
+  /* height: 100px; h */
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav_links li {
+  padding: 0 30px;
+  padding-left:0;
+  /* gap: 20px; */
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+i {
+  font-style: normal;
+}
+
+.fa_img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+/* 
+.fa  .material-symbols-outlined{
+  padding: 0 10px;
+} */
+
+.fa{
+  display: flex;
+  gap: 10px;
+}
+
+/* hero section */
+.hero_1 {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
+
+input[type=text] {
+  width: 60vw;
+  /* box-sizing: border-box; */
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  /* background-color: white; */
+  /* background-position: 10px 10px;  */
+  /* background-repeat: no-repeat; */
+  padding: 12px 10px ;
+  padding-left: 40px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+
+.table_main{
+  display: flex;
+  align-items: center;
+  /* width: 98%; */
+  border: 1px solid black;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.hero_1 span{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translate(-50%, -50%);
+}
+
+
+/* this is thhe table  */
+
+.table_szn{
+  width: 100%;
+}
+ table{
+  width: 100%;
+  border-spacing: 1px;
+  /* border: 1px solid gray; */
+} 
+ /*thead > tr{
+  background-color: gray;
+  border: solid gray  ; 
+  }*/
+ 
+td{
+  text-align: left;
+  padding: 8px auto;
+}
+
+th{
+  background-color: gray;
+  padding: 8px;
+}
+.btn_table{
+  background: none;
+  border: none;
+  outline: none;
+}
+td img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: .5rem;
+}

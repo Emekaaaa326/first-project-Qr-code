@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ width: 100%;
+    min-height: 100vh;
+    background-color:  #c3b3b3;
+    padding: 10px;
+}
+.h4{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.card_container{
+     width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+
+
+    img{
+        position: relative;
+        left: 20px;
+        width: 85px;
+        height: 85px;
+        border-radius: 8px;
+
+    }
+}
+
+.card{
+    display: flex;
+    gap: 15px;
+
+}
+
+.hhh{
+    font-size: 23px;
+    font-weight: 500;
+}
