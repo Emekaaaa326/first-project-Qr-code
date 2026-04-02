@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>qr card</title>
-    <link rel="stylesheet" href="/css_files/card.css">
-       <link
+    <title>Document</title>
+    <link rel="stylesheet" href="/css_files/assign.css">
+    <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 </head>
 <body>
-
-  <div class="navigate">
+     <div class="navigate">
       <div class="nav_house">
         <div class="logo">
           <div class="logod"><img src="svg/qr.svg" class="imggg" /></div>
@@ -62,39 +61,57 @@
         <span class="material-symbols-outlined"> question_exchange </span>
 
         <span class="material-symbols-outlined"> notifications </span>
-
-        <button class="drop_btn">
-        <img src="dash.jpg" class="fa_img" />
+        
+        <button class="Drop_btn">
+        <img src="/svg/dash.jpg" class="fa_img" />
         <span class="material-symbols-outlined"> keyboard_arrow_down </span>
         </button>
       </div>
     </div>
 
-
     <div class="container">
-    <div class="card_container">
-         <h4 class="h4">Verification Porfile</h4>
-        <div class="card">
-        <div class="img_sec">
-            <img src="/svg/dash.jpg" alt="page">
-            <h4 class="h4">liam james</h4>
-        </div>
-        <div class="img_sec2">
-            <span>verified</span>
-            <h4 class="hhh">ID:11111</h4>
-            <h4 class="hhh">Exam: advanced math</h4>
-            <h4 class="hhh">Venue: main Auditorium</h4>
-            <h4 class="hhh">Time: 09 0M</h4>
-        </div>
-        </div>
-          <div class="list">
-    <h4>list of subjects</h4>
-    <h4>math</h4>
-    <h4>Eng</h4>
-    <h4>gov</h4>
+        <h3>Assign New Course</h3>
+        <h5>Map cousre to instrctor</h5>
+
+        <div class="inpt_sec">
+         <div class="course_ttl">
+          <label for="Course Title">Course Title</label>
+          <input type="text" id="course" placeholder="Enter course Here...."/>
+      </div>
+
+       <div class="instructor">
+          <label for="instructor">instructor name</label>
+          <input type="text" id="instructor_name" placeholder="instructor name">
+      </div>
+      </div>
+
+    <div class="time_sec">
+      <div class="time">
+          <label>Start Time</label>
+          <input type="time" id="time" placeholder="...."/>
+      </div>
+
+      <div class="time">
+          <label>End Time</label>
+          <input type="date" id="date" placeholder="...."/>
+      </div>
+      </div>
+
+      <div class="time_sec2">
+        <label>classroom/Venue</label>
+          <input type="text" id="venue" placeholder="...."/>
+
+          <label>term/semeter</label>
+          <input type="text" id="semester" placeholder="...."/>
+      </div>
+      <div class="btn_sub">
+          <button class="submit" id="btn-sub">submit</button>
+          <button class="cancel" id="btn-sub">cancel</button>
+      </div>
+      
+      </div>
+      
     </div>
-    </div>
-  
-    </div>
+    <script src="/script/assign.js"></script>
 </body>
 </html>
