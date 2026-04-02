@@ -1,20 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qr Attendance</title>
-    <link rel="stylesheet" href="/css_files/attendance.css">
+    <link rel="stylesheet" href="/css_files/attendance.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-
-</head>
-<body>
-
-
- <div class="navigate">
+  </head>
+  <body>
+    <div class="navigate">
       <div class="nav_house">
         <div class="logo">
           <div class="logod"><img src="svg/qr.svg" class="imggg" /></div>
@@ -65,98 +62,59 @@
 
         <span class="material-symbols-outlined"> notifications </span>
 
-
         <button class="drop_btn">
-        <img src="dash.jpg" class="fa_img" />
-        <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+          <img src="/svg/dash.jpg" class="fa_img" />
+          <span class="material-symbols-outlined"> keyboard_arrow_down </span>
         </button>
       </div>
     </div>
 
-
-    
     <div class="container">
-   <div class="att_container">
-    <div class="attend">
-         <h2>Attendance</h2>
-         <div class="filters">
-        <button class="btn">filter <span class="material-symbols-outlined">
-                    blur_medium
-                    </span>
-                </button>
-        <button class="btn">alin<span class="material-symbols-outlined">
-    keyboard_arrow_down
-    </span>
+      <div class="att_container">
+        <div class="attend">
+          <h2>Attendance</h2>
+          <div class="filters">
+            <button class="btn">
+              filter
+              <span class="material-symbols-outlined"> blur_medium </span>
             </button>
+            <button class="btn">
+              alin<span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </button>
+          </div>
         </div>
-    </div>
-    <div class="sear_att">
-    <input type="text" placeholder="Searchfor student Id.....">
-     <span class="material-symbols-outlined" id="icon"> search </span>
-    <!-- <input type="text" name="search" placeholder="Search..."> -->
-    </div>
-    <h3 class="h3">9AM Exam (main hall)</h3>
-    <div class="att_taken"> </div>
-<!-- this is the record section -->
-   <div class="rec_main">
-   <div class="rec_sec">
-   <div class="sec">
-   <img src="/svg/dash.jpg">
-   <div>
-   <h3>liam fredderson</h3>
-   <h5>2222,4:45am</h5>
-   </div>
-   <h3>ID: 22324536</h3>
-   <span class="material-symbols-outlined" id="checked">
-            check_circle
-    </span>
-   </div> 
-   </div>
+        <div class="sear_att">
+          <input type="text" placeholder="Searchfor student Id....." />
+          <span class="material-symbols-outlined" id="icon"> search </span>
+          <!-- <input type="text" name="search" placeholder="Search..."> -->
+        </div>
+        <h3 class="h3">9AM Exam (main hall)</h3>
+        <div class="att_taken"></div>
 
-   <div class="rec_sec">
-   <div class="sec">
-   <img src="/svg/dash.jpg">
-   <div>
-   <h3>liam fredderson</h3>
-   <h5>2222,4:45am</h5>
-   </div>
-   <h3>ID: 22324536</h3>
-   <span class="material-symbols-outlined" id="checked">
-            check_circle
-    </span>
-   </div> 
-   </div>
+        <!-- this is the record section -->
+        <div class="rec_main" id="rec_main">
+          <!-- rec -->
+          <div class="rec_sec">
+            <div class="sec">
+              <img src="/svg/dash.jpg" />
+              <div>
+                <h3>liam fredderson</h3>
+                <h5>2222,4:45am</h5>
+              </div>
+              <h3>ID: 22324536</h3>
+              <span class="material-symbols-outlined" id="checked">
+                check_circle
+              </span>
+            </div>
+          </div>
 
-   <div class="rec_sec">
-   <div class="sec">
-   <img src="/svg/dash.jpg">
-   <div>
-   <h3>liam fredderson</h3>
-   <h5>2222,4:45am</h5>
-   </div>
-   <h3>ID: 22324536</h3>
-   <span class="material-symbols-outlined"  id="checked">
-            check_circle
-    </span>
-   </div> 
-   </div>
-
-   <div class="rec_sec">
-   <div class="sec">
-   <img src="/svg/dash.jpg">
-   <div>
-   <h3>liam fredderson</h3>
-   <h5>2222,4:45am</h5>
-   </div>
-   <h3>ID: 22324536</h3>
-   <span class="material-symbols-outlined" id="checked">
-            check_circle
-    </span>
-   </div> 
-   </div>
-   
+          <!-- rec -->
+        </div>
+      </div>
     </div>
 
-    </div>
-</body>
+    <script src="/script/attendance.js"></script>
+  </body>
 </html>
